@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    .bg{
+        /* The image used */
+        background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNCAgICAcHBwcHBw0HBwcHBw8ICQcNFREWFhURExMYKCggGBolGxMTITEhMSkrLjouFx8zODMsNygtLisBCgoKDQ0NDw0NDzcZFRkrNystLSsrNysrLS0rKysrKy0tKysrKysrLS0rKysrKysrKysrKysrKysrKystKystK//AABEIAIEBhQMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIEAwf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBgX/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREC/9oADAMBAAIRAxEAPwD6FWbVtZfYebEEtaKWs1aza01C1mlqFoqFQtSCDOtNYrIhakELU0tSCCFrAELQIIwAJUQCBURgAXSQADpzBQTrIAqdZAFDYAiqooIqLEcUAFQEYoAad1ZpWbXGPILazaVm1pqQtZtLULUggjTWFZEpahaglLUhUolLUhaghbkBNCRFREAJQBEVFSwADcgqKnWQEVOvMAVOsgChoATQooQAmoLEVFQA0oKCCiTqtZpUrk8lIVm0rNaawQqFqDNEaaKglpakKglpakLUELZUVCQQRACQBIRRGIoJuQATpIAodZAUTpICgbAVFFBNCgFAFiagKBuEVIqKgQFRQJ71mlrNrEeTkKzS1GmsEpWbWmpC1BC1IVBmluRdRAtSAgSCCIASCCSiCKgJqQATrIAodOYKCdZBQDUgCpoABFgIigiKAagKJqCihpFgsCBUSelZpUojysiVBLS1C1kStNSCCUtyFqCFqCAWhASACQBJBRFFBNSAKHSRFBOsgoJ0kFANgoiAoICogKmoigCKQTQooKKAKqkVEFQIqUqF5eQZpayY1hUKza03ItqCFqQQCRAJARFUBJRFRRQTUgKBuRFBOsgoSJ1kFANSCgmgUBAVEigEAqaRRU1EUA0KAIoJCihAok86lGa083IWslRpqQtZWoWogBaAEUAKEBEFEhUUGRFBOkgCp0kAUOsiSKKnTAFBQURBRJFUBAVEBQQUTUAA0KCIoBKRViSDWAGue1mrWa6R57EBGmpBmqhaAEUAJAEsAEgBGQUA6SAKnSQFA6SAKnSAKGgFRRcFCAEgURBQNQVFTUgCgooJoUAhRUhqJGoBQaGWNcdZQd3wogBaSooSgCKAEgCIoAACbgoJ0gRROkFQDpFADcUBFYUERQCFBIUAQUTcAA1BQRAEVioBNAANRqAKKoAYf//Z");
+        
+        /* Add the blur effect */
+       
+        
+        /* Full height */
+        height: 100%; 
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      }
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    color: #ecf0f1;
+    
+   
+    
+    
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    z-index: 1;
+}
+
+p {
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+nav {
+    position: absolute;
+    position: sticky;
+    top: 0px;
+    
+    padding: 15px 0;
+    z-index: 1;
+   
+   
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   
+}
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+a {
+    border: 1px solid ;
+    border-radius: 24px;
+    padding: 8px;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.2em;
+
+  
+   
+}
+
+a:hover {
+    color: #f0f3f6;
+    border-color: rgb(11, 8, 8) ;
+    background-color:  #5a7694;
+    ;
+    
+
+    
+}
+
+.resume-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.about-details, .contact-details {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #3498db;
+    
+}
+
+ul {
+    padding-left: 20px;
+}
+.Skills,.linux,.python{
+    border-radius: 6px;
+}
+.Skills{
+    width: 100%;
+   background-color: #8597a9;
+   padding: 2px;
+   text-decoration-color: #040607;
+   text-align-last:right ;
+   border-style: hidden;
+}
+.linux{
+    
+    background-color: #c7df89;
+    width: 90%;
+    
+}
+.python{
+   
+    background-color: #cc8bb1;
+    width: 70%;
+
+}
+.c{
+   
+    background-color: #c7a987;
+    width: 70%;
+
+}
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #3498db;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #2c3e50;
+}
